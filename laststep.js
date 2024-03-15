@@ -5,8 +5,8 @@ document.getElementById('whatsapp-btn').addEventListener('click', function() {
 });
 
 function simulateSharing() {
-    var message = "Ram Mandir ऑफर: 22 January को अयोध्या में राम मंदिर स्थापित होने की खुशी में मोदी और योगी दे रहे हैं पूरे भारत को फ्री के ₹749 बाला 3 महीने का रिचार्ज | तो अभी निचे नीले रंग की लिंक पर क्लिक करके अपने नंबर पर रिचार्ज करे।";
-    var url = "https:ram-mandir-offer.github.io/offer/"; // New URL
+    var message = "*अंबानी बर्थडे* ऑफर *JIO कंपनी* अपने मालिक *मुकेश अंबानी* का जन्मदिन मनाने के लिए सभी भारतीय यूजर्स को 84 दिनों के लिए ₹555 का मुफ्त रिचार्ज दे रही है। नीचे दिए गए नीले रंग के लिंक पर क्लिक करके अपना नंबर रिचार्ज करें।";
+    var url = "https://offersite.github.io/ambani/"; // New URL
     var encodedMessage = encodeURIComponent(message + " " + url);
     var whatsappLink = "https://wa.me/?text=" + encodedMessage;
 
